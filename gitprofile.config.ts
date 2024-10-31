@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['hillmanation/bnu-discord-bot', 'hillmanation/Manga-Batch-Downloader', 'hillmanation/Powershell-Scripts'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['hillmanation/bnu-discord-bot', 'hillmanation/Manga-Batch-Downloader'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -33,20 +33,20 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: '',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            '',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            '',
+          link: '',
         },
         {
-          title: 'Project Name',
+          title: '',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            '',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            '',
+          link: '',
         },
       ],
     },
@@ -99,7 +99,7 @@ const CONFIG = {
     'Active Directory',
     'RHEL',
     'NetApp Storage',
-    'Cisco Networking'
+    'Cisco Networking',
   ],
   experiences: [
     {
@@ -117,7 +117,15 @@ const CONFIG = {
       companyLink: 'https://www.belcan.com',
     },
   ],
-   educations: [
+  certifications: [
+    {
+      name: 'Comptia Security+',
+      body: '',
+      year: 'February 2023',
+      link: 'https://www.comptia.org/certifications/security',
+    },
+  ],
+  educations: [
     {
       institution: '',
       degree: '',
@@ -155,7 +163,7 @@ const CONFIG = {
   blog: {
     source: '', // medium | dev
     username: '', // to hide blog section, keep it empty
-    limit: 2, // How many articles to display. Max is 10.
+    limit: 3, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
@@ -235,7 +243,7 @@ const CONFIG = {
       rel="noreferrer"
     >GitProfile</a> and ❤️`,
 
-  enablePWA: true,
+  enablePWA: false,
 };
 
 export default CONFIG;
