@@ -29,24 +29,16 @@ const CONFIG = {
       },
     },
     external: {
-      header: '',
+      header: 'My Projects',
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: '',
+          title: 'Kavita Server Discord Bot',
           description:
-            '',
+            'A Community Driven Discord Bot for use with the Kavita Manga Reader server project.',
           imageUrl:
-            '',
-          link: '',
-        },
-        {
-          title: '',
-          description:
-            '',
-          imageUrl:
-            '',
-          link: '',
+            'https://avatars.githubusercontent.com/u/75760308?s=200&v=4',
+          link: 'https://github.com/hillmanation/bnu-discord-bot',
         },
       ],
     },
