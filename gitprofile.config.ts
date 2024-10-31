@@ -40,6 +40,14 @@ const CONFIG = {
             'https://avatars.githubusercontent.com/u/75760308?s=200&v=4',
           link: 'https://github.com/hillmanation/bnu-discord-bot',
         },
+        {
+          title: '🥱Insomniac\'s Programming club🥱',
+          description:
+            'Exactly how many days can I stay up until 2am coding and still show up for work?',
+          imageUrl:
+            'https://avatars.githubusercontent.com/u/66786161?s=96&v=4',
+          link: 'https://www.youtube.com/watch?v=SaA_cs4WZHM',
+        },
       ],
     },
   },
