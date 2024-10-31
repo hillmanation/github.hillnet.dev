@@ -117,15 +117,40 @@ const CONFIG = {
       companyLink: 'https://www.belcan.com',
     },
   ],
-  certifications: [
+   educations: [
     {
-      name: 'Comptia Security+',
-      body: '',
-      year: 'February 2023',
-      link: 'https://www.comptia.org/certifications/security',
+      institution: '',
+      degree: '',
+      from: '',
+      to: '',
+    },
+    {
+      institution: '',
+      degree: '',
+      from: '',
+      to: '',
     },
   ],
-,
+  publications: [
+    {
+      title: '',
+      conferenceName: '',
+      journalName: '',
+      authors: '',
+      link: '',
+      description:
+        '',
+    },
+    {
+      title: '',
+      conferenceName: '',
+      journalName: '',
+      authors: '',
+      link: '',
+      description:
+        '',
+    },
+  ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: '', // medium | dev
